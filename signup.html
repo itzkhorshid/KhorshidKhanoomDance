@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.PNG" alt="Khorshid Khanoom Dance Group">
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="members.html">Members</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolore error repellendus culpa unde iste vero hic sequi nam, at id porro ipsa non dolorem? Adipisci porro ullam accusantium hic!
+        </p>
+    </section>
+
+   
+    <section class="contact-info">
+        <div class="form-container">
+            <form id="signup-form" method="POST" class="signup-form">
+                <h2>Your Contact Info</h2>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="number">Phone Number:</label>
+                <input type="tel" id="number" name="number" placeholder="Enter your phone number" required>
+
+                <label for="class-option">Choose a Class Option:</label>
+                <select id="class-option" name="class-option" required>
+                    <option value="" disabled selected>Select a class</option>
+                    <option value="trial">Trial class</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                    <option value="Kids 4-13">Kids 4-13</option>
+                </select>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <div class="image-container">
+            <img src="images/signup2.jpg" alt="class image">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact: mssunfound@hotmail.com | +1 514-377-8005 | 5347 Chem. de la Côte-des-Neiges, Montréal, QC H3T 1Y4</p>
+        <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=5347%20chemin%20de%20la%20c%C3%B4te-des-neiges+(CELO)&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
+        <p>© 2024 Khorshid Khanoom Dance Group</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

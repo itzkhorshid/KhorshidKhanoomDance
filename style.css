@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+}
+
+header .logo img {
+    height: 150px; 
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    background: url('images/photo1.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro .btn {
+    padding: 10px 20px;
+    background: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 24%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.events {
+    padding: 20px;
+    background: #000;
+}
+
+.events h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event-card .btn {
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.signup-section {
+    background: url('images/signup.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-btn {
+    padding: 15px 30px;
+    background: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+
+.signup-btn:hover {
+    background: #e63900;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 0.9em;
+}

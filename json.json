@@ -1,0 +1,12 @@
+{
+    "members": [
+        { "name": "Aram Bayat", "role": "Founder", "image": "images/member1.jpg" },
+        { "name": "Khorshid", "role": "Dancer", "image": "images/member2.jpg" },
+        { "name": "Gisoo", "role": "Dancer", "image": "images/member3.jpg" },
+        { "name": "Raha", "role": "Dancer", "image": "images/member4.jpg" },
+        { "name": "Sura", "role": "Dancer", "image": "images/member5.jpg" },
+        { "name": "Nairika", "role": "Dancer", "image": "images/member6.jpg" },
+        { "name": "Aida", "role": "Dancer", "image": "images/member7.jpg" },
+        { "name": "Asma", "role": "Dancer", "image": "images/member8.jpg" }
+    ]
+}
